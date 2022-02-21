@@ -1,0 +1,24 @@
+
+/* css переменные:   :root { 
+    --primary-text-color: #212121;
+    --accent-color: #2196F3;
+
+    потом в тевсте color: var(--accent-color); 
+/* main color: #212121; */
+
+/*  вторичный цвет color: #757575;
+
+/* белый color: #FFFFFF; 
+
+/ акцент color: #2196F3;
+
+/ белые ссылки color: rgba(255, 255, 255, 0.6);
+
+.list, .link { list-style: none;}  
+
+.syte-nav  
+
+.syte-naw .link.current {color: --accent-color;} - подсвечивание текущей страницы
+
+
+можно сделать дополнительный сss файл - common.css c  основными стилями страницы
