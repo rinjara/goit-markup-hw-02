@@ -1,4 +1,3 @@
-
 /* css переменные:   :root { 
     --primary-text-color: #212121;
     --accent-color: #2196F3;
@@ -21,4 +20,129 @@
 .syte-naw .link.current {color: --accent-color;} - подсвечивание текущей страницы
 
 
-можно сделать дополнительный сss файл - common.css c  основными стилями страницы
+можно сделать дополнительный сss файл - common.css c  основными стилями 
+
+/*  body {
+    background: #E5E5E5; #E5E5E5;
+}
+header {
+    background-color: #FFFFFF
+}
+*/
+
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --main-white: #ffffff;
+}
+
+body {
+  color: var(--primary-text-color);
+  background-color: var(--main-white, #ffffff);
+}
+
+.page-header {
+  background-color: #ffffff;
+}
+
+/* logo */
+
+.logo {
+  color: var(--primary-text-color);
+}
+.web {
+  color: var(--accent-color);
+}
+
+/* header */
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.nav .link {
+  color: var(--primary-text-color);
+}
+.contacts .link {
+  color: var(--secondary-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+  cursor: pointer;
+}
+
+/* .site-nav .link:current {
+  color: var(--accent-color);
+} */
+
+/* hero */
+.hero {
+  background-color: #2f303a;
+  color: var(--main-white);
+
+  text-transform: uppercase;
+}
+.hero-button {
+  color: var(--main-white);
+  background-color: var(--accent-color);
+}
+
+/* section skills */
+.hidden-title {
+  /* нужно его спрятать */
+}
+
+.skills-list h3 {
+  text-transform: uppercase;
+}
+.skills-list p {
+  color: var(--secondary-text-color);
+}
+
+/* work areas section */
+
+/* team section */
+.team {
+  background-color: #f5f4fa;
+}
+.team-member {
+  background-color: var(--main-white);
+}
+.team-list p {
+  color: var(--secondary-text-color);
+}
+
+/* Portfolio */
+/* filter */
+.filter-button {
+  color: var(--primary-text-color);
+  background-color: #f5f4fa;
+}
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--main-white);
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+
+/* gallery */
+.projects-list p {
+  color: var(--secondary-text-color);
+}
+
+/* footer */
+.page-footer {
+  background-color: #2f303a;
+}
+.white-logo {
+  color: var(--main-white);
+}
+.address-list .link {
+  color: rgba(255, 255, 255, 0.6);
+}
+.address-list [rel] {
+  color: var(--main-white);
+}
