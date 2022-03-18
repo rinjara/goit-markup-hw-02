@@ -108,7 +108,6 @@ body {
 .skills-list p {
   color: var(--secondary-text-color);
 
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
@@ -136,7 +135,6 @@ body {
 .position {
   color: var(--secondary-text-color);
 
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -168,7 +166,7 @@ body {
 }
 .project-type {
   color: var(--secondary-text-color);
-  font-weight: 400;
+
   font-size: 16px;
   line-height: 1.88;
 }
@@ -192,6 +190,10 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+}
+.address-list .link:hover,
+.address-list .link:focus {
+  color: var(--accent-color);
 }
 .address-list [rel] {
   color: var(--main-white);
