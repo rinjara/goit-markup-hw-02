@@ -146,9 +146,13 @@ body {
   color: var(--primary-text-color);
   background-color: #f5f4fa;
 
+  font-family: Roboto, sans-serif;
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .filter-button:hover,
 .filter-button:focus {
